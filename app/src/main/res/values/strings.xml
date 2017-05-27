@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TodoApp_PreWork</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add">Add</string>
+    <string name="add_item">Add a new item ...</string>
+    <string name="title_activity_edit_item">SimpleTodo</string>
+    <string name="editItemText">Edit item below:</string>
+    <string name="btnSave">Save</string>
+</resources>

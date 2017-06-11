@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hoang.todoapp_prework.taskview.DetailActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:id="@+id/task_label"
+                android:paddingTop="20dp"
+                android:text="Task Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#452446"/>
+
+            <TextView
+                android:id="@+id/task_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <View android:layout_height="1dp"
+            android:background="#452446"/>
+        <TableRow>
+            <TextView
+                android:id="@+id/due_day_label"
+                android:paddingTop="20dp"
+                android:text="Due Day"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#452446"/>
+
+            <TextView
+                android:id="@+id/due_day_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <View android:layout_height="1dp"
+            android:background="#452446"/>
+        <TableRow>
+            <TextView
+                android:id="@+id/notes_label"
+                android:paddingTop="20dp"
+                android:text="Notes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#452446"/>
+
+            <TextView
+                android:id="@+id/notes_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Notes for task"
+                android:textStyle="bold"
+                android:textColor="#452446"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <View android:layout_height="1dp"
+            android:background="#452446"/>
+        <TableRow>
+            <TextView
+                android:id="@+id/priority_level_label"
+                android:paddingTop="20dp"
+                android:text="Priority Level"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#452446"/>
+
+            <TextView
+                android:id="@+id/priority_level_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="HIGH"
+                android:textStyle="bold"
+                android:textColor="#452446"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+        <View android:layout_height="1dp"
+            android:background="#452446"/>
+        <TableRow>
+            <TextView
+                android:id="@+id/status_label"
+                android:paddingTop="20dp"
+                android:text="Status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#452446"/>
+
+            <TextView
+                android:id="@+id/status_content"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="DONE"
+                android:textStyle="bold"
+                android:textColor="#452446"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

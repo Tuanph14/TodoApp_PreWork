@@ -14,12 +14,19 @@ The following **required** functionality is completed:
 * [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
 * [ ] User can **persist todo items** and retrieve them properly on app restart
 
+The following **optional** features are implemented:
+
+* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
+* [ ] Add support for completion due dates for todo items (and display within listview item)
+* [ ] Add support for selecting the priority of each todo item (and display in listview item)
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://cloud.githubusercontent.com/assets/13533461/26523157/b557c98a-433b-11e7-9dd0-5b5e6ecd2285.gif' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/13533461/27012566-2373d1fe-4efc-11e7-947f-bc9baf3432c7.gif' width='' alt='Video Walkthrough' />
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
